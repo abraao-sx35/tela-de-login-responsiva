@@ -6,31 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tela de login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="midia_style.css">
 </head>
 <body>
     <main class="container">
         <div class="login">
 
-            <img id="img" src="abstrato-riscas-em-varias-cores-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho.jpg" alt="">
+            <div class="container_imagem" >
+                <img id="img" src="abstrato-riscas-em-varias-cores-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho.jpg" alt=""></div>
 
-            <h1>login</h1>
-            <br>
-            <p>Lorem ipsum dolor sit amet dadde from consecteturadipisicing  elit. Corporis ea fugit quidem libero,  maxime quas ipsa architecto </p>
-            <br>
-
-            <div class="fundo">
-                <label for="email">🙄</label>
-                <input type="email" name="" id="email" required placeholder="ex:teste@gmail.com" >
+            <div class="container_login">
+                <h1>login</h1>
+                <p>Lorem ipsum dolor sit amet dadde from consecteturadipisicing  elit. Corporis ea fugit quidem libero,  maxime quas ipsa architecto </p>
+                
+                <form action="" autocomplete="on">
+                    <div class="fundo">
+                        <label for="email">🙄</label>
+                        <input type="email" name="" id="email" required placeholder="ex:teste@gmail.com" autocomplete="on">
+                    </div>
+                    <div class="fundo">
+                        <labelfor="senha">🗝️</label>
+                        <input type="password" name="" id="senha" required  placeholder="minino 8 digitos" minlength="8" maxlength="22">
+                    </div>
+                    <input id="enviar" type="submit" value="ENTRAR" class="entrar">
+                <a  href="#"><button class="esqueci">esqueci a senha</button></a>
+                </form> <!--formulario-->
             </div>
-
-            <div class="fundo">
-                <labelfor="senha">🗝️</label>
-                <input type="password" name="" id="senha" required  min="8" max="22" placeholder="minino 8 digitos">
-            </div>
-            <a href=""><button>entrar</button></a>  <br>
-
-            <a href="#"><button>esqueci a senha</button></a>
-
         </div> <!--login-->
     </main>
 </body>
