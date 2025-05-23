@@ -1,0 +1,47 @@
+/* ipad */
+@media screen and (min-width:768px) and (max-width:992px) {
+    .container{
+        width: 97vw;
+        background-color: white;
+        height: 65vh;
+    }
+
+    .container_imagem{
+      float: left;
+      width: 30%;
+    }
+    img{
+        height: 65vh;
+        border-radius: 15px;
+    }
+    .container_login{
+        float: right;
+        width: 70%;
+        margin-top: 20px;
+    
+    }
+
+    .container_login>p{
+        margin-bottom: 15px;
+        font-size: 1.3em;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    input{
+        width: 90%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 2em
+    }
+
+}
+
+/* computador */
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    
+}
