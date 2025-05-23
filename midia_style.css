@@ -66,8 +66,7 @@
     .container_login>p{
         font-size: larger;
         text-align: left;
-        margin-left: 15px;
-        margin: 10px 0 10px 0;
+        margin: 10px 0 10px 15px;
     }
     input{
         width: 90%;
